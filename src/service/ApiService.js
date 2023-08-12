@@ -35,6 +35,11 @@ export function call(api, method, request) {
 }
 
 
+export default function signup(userDTO) {
+    return call("/auth/signup", "POST", userDTO);
+}
+
+
 export function signin(userDTO) {
     return call("/auth/signin", "POST", userDTO)
         .then((response) => {
