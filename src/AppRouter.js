@@ -22,7 +22,7 @@ export default function AppRouter() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<App />} />
-                    <Route path="login" element={<login />} />
+                    <Route path="login" element={<Login />} />
                 </Routes>
             </BrowserRouter>
             <Box mt={5}>
