@@ -9,5 +9,5 @@ fi
 
 /bin/dd if=/dev/zero of=$SWAPFILE bs=1M count=1024
 /bin/chmod 600 $SWAPFILE
-/bin/mkswap $SWAPFILE
-/bin/swapon $SWAPFILE
+/sbin/mkswap $SWAPFILE
+/sbin/swapon $SWAPFILE
