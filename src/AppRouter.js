@@ -22,8 +22,7 @@ export default function AppRouter() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    {/*<Route path="/" element={<App />} />*/}
-                    <Route path="/" element={<Login />} />
+                    <Route path="/" element={<App />} />
                     <Route path="login" element={<Login />} />
                     <Route path="signup" element={<SignUp />} />
                 </Routes>
